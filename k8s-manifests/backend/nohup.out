@@ -1,0 +1,36 @@
+Forwarding from 0.0.0.0:3000 -> 3000
+Forwarding from 0.0.0.0:5000 -> 5000
+Handling connection for 3000
+Handling connection for 3000
+Handling connection for 3000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+E1204 19:09:40.851163   23532 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 172.31.25.165:5000->119.160.2.71:16633: read tcp4 172.31.25.165:5000->119.160.2.71:16633: read: connection reset by peer"
+E1204 19:09:40.854530   23532 portforward.go:424] "Unhandled Error" err="an error occurred forwarding 5000 -> 5000: error forwarding port 5000 to pod 586dc3e125f623ddfff6e323dfd126d8f80aa8bac30bfb717357938750019062, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a064e7af-d1ee-880c-41ef-7ffc437bd472\": readfrom tcp4 127.0.0.1:42962->127.0.0.1:5000: write tcp4 127.0.0.1:42962->127.0.0.1:5000: write: broken pipe"
+error: lost connection to pod
+Forwarding from 0.0.0.0:5000 -> 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
+Handling connection for 5000
